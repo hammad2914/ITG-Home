@@ -438,3 +438,29 @@ align-items: center;
         background-size: 4000px auto, 3000px auto
     }
 }
+
+.hero-customer{
+    background-image: url('https://www.coupa.com/sites/default/files/2023-05/coupa-customers-bg-desktop.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+@media(min-width:498px) and (max-width:798px){
+    .hero-customer{
+        background-image: url('https://www.coupa.com/sites/default/files/2023-05/coupa-customers-bg-tablet.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media(max-width:497px){
+    .hero-customer{
+        background-image: url('https://www.coupa.com/sites/default/files/2023-05/coupa-customer-maersk-mobile.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}

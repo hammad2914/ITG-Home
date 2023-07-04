@@ -1325,6 +1325,7 @@
     content: ""
 }
 
+
 .icon-User_Centric:before {
     content: ""
 }
@@ -1384,6 +1385,8 @@
 .icon-Large_Enterprises:before {
     content: ""
 }
+
+
 
 * {
     box-sizing: border-box
