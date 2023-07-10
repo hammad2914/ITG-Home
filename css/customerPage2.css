@@ -7777,14 +7777,14 @@ html[lang=fr] .stat-card-row__stat.stat-card-row__stat {
 }
 
 .hero__headline {
-    margin-block-end: 1.25rem;
-    font-size: 2.5rem
+    margin-block-end: 1.25rem !important;
+    font-size: 2.5rem !important
 }
 
 @media screen and (min-width:50em) {
     .hero__headline {
-        margin-block-end: 1.5rem;
-        font-size: 3.5rem
+        margin-block-end: 1.5rem !important;
+        font-size: 3.5rem !important
     }
 }
 
@@ -7803,13 +7803,13 @@ html[lang=fr] .stat-card-row__stat.stat-card-row__stat {
 }
 
 .hero__subheadline {
-    font-size: .75rem;
-    line-height: 120%;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: -0.02em;
-    color: #2a4788;
-    margin-block-end: .5rem
+    font-size: .75rem !important;
+    line-height: 120% !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: -0.02em !important;
+    color: #2a4788 ;
+    margin-block-end: .5rem !important
 }
 
 .paragraph--view-mode--customers .hero__customer-link,
@@ -7840,7 +7840,7 @@ html[lang=fr] .stat-card-row__stat.stat-card-row__stat {
 
 .paragraph--view-mode--customers .hero__customer-link::after,
 .paragraph--view-mode--customers .hero__customer-video::after {
-    content: "î¦˜";
+    content: "";
     font-family: "coupa-theme-icons" !important;
     position: absolute;
     font-size: .6rem;

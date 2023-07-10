@@ -25059,16 +25059,16 @@ div.small-card-button.three-button-cards {
     position: relative
 }
 
-.persona-home-cards .persona-card a.persona-card-link .persona-card-inner {
+.persona-home-cards .persona-card .persona-card-link .persona-card-inner {
     padding: 1rem 2rem
 }
 
-.persona-home-cards .persona-card a.persona-card-link .persona-card-inner h4 {
+.persona-home-cards .persona-card .persona-card-link .persona-card-inner h4 {
     padding-right: 2rem;
     color: #282828
 }
 
-.persona-home-cards .persona-card a.persona-card-link .persona-card-inner p {
+.persona-home-cards .persona-card .persona-card-link .persona-card-inner p {
     line-height: 140%;
     color: #282828
 }
@@ -25078,11 +25078,11 @@ div.small-card-button.three-button-cards {
     margin-bottom: 2rem
 }
 
-.persona-home-cards .persona-card a.persona-card-link .persona-card-inner .persona-link span {
+.persona-home-cards .persona-card .persona-card-link .persona-card-inner .persona-link span {
     color: #282828
 }
 
-.persona-home-cards .persona-card a.persona-card-link .persona-card-inner .persona-link span svg {
+.persona-home-cards .persona-card .persona-card-link .persona-card-inner .persona-link span svg {
     max-width: 50px;
     vertical-align: middle
 }

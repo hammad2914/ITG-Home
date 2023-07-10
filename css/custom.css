@@ -443,7 +443,7 @@ align-items: center;
     background-image: url('https://www.coupa.com/sites/default/files/2023-05/coupa-customers-bg-desktop.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
     margin-bottom: 80px;
 }
 
@@ -452,7 +452,7 @@ align-items: center;
         background-image: url('https://www.coupa.com/sites/default/files/2023-05/coupa-customers-bg-tablet.png');
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;
+        background-size: 100% 100%;
     }
 }
 
@@ -461,6 +461,72 @@ align-items: center;
         background-image: url('https://www.coupa.com/sites/default/files/2023-05/coupa-customer-maersk-mobile.png');
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;
+        background-size: 100% 100%;
     }
+}
+
+.customer-headline {
+    line-height: 1.2;
+    font-weight: 700;
+    font-style: normal;
+    font-feature-settings: "dlig", "liga", "lnum", "kern";
+    color: #2a4788
+}
+
+.customer-headline {
+    margin-block-end: 1.25rem !important;
+    font-size: 2.5rem !important
+}
+
+@media screen and (min-width:50em) {
+    .customer-headline {
+        margin-block-end: 1.5rem !important;
+        font-size: 3.5rem !important
+    }
+}
+
+.cardsss{
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+
+#sustainability-link:hover, #supplychain-link:hover, #sourcing-link:hover{
+    cursor: pointer;
+}
+
+.purpose{
+    margin-bottom: 6rem;
+}
+
+.levis{
+   background-image: url('../img/levis-blur_edges.png');
+   background-repeat: no-repeat;
+   background-size: 240px 100%;
+   background-position: right;
+}
+
+@media(max-width:795px){
+    .levis{
+        background:none;
+    }
+}
+
+.background-box{
+    max-width:66%;
+}
+.qoute-heading{
+    font-size: 40px !important;
+   margin-bottom: 50px !important;
+}
+
+@media(max-width:440px){
+    .qoute-heading{
+        font-size: 32px !important;
+    }
+}
+
+
+.customer-data{
+    max-width: 1300px !important;
+    margin: 0px auto;
 }

@@ -28762,9 +28762,9 @@ article.center-article .card-img-column {
 @media screen and (min-width:50em) {
     .customer-steps .field--name-field-para-limit-three-a .field__items_content>.field__item,
     .paragraph--type--challenge-solution-result .field--name-field-para-limit-three-a .field__items_content>.field__item {
-        flex: 0 0 calc(33.3333% - 2rem);
-        width: calc(33.3333% - 2rem);
-        max-width: calc(33.3333% - 2rem);
+        flex: 0 0 calc(45% - 2rem);
+        width: calc(45% - 2rem);
+        max-width: calc(45% - 2rem);
         margin: 1rem
     }
 }
@@ -28772,9 +28772,9 @@ article.center-article .card-img-column {
 @media screen and (min-width:68.75em) {
     .customer-steps .field--name-field-para-limit-three-a .field__items_content>.field__item,
     .paragraph--type--challenge-solution-result .field--name-field-para-limit-three-a .field__items_content>.field__item {
-        flex: 0 0 calc(33.3333% - 2rem);
-        width: calc(33.3333% - 2rem);
-        max-width: calc(33.3333% - 2rem);
+        flex: 0 0 calc(45% - 2rem);
+        width: calc(45% - 2rem);
+        max-width: calc(45% - 2rem);
         margin: 1rem
     }
 }
@@ -28782,9 +28782,9 @@ article.center-article .card-img-column {
 @media screen and (min-width:100em) {
     .customer-steps .field--name-field-para-limit-three-a .field__items_content>.field__item,
     .paragraph--type--challenge-solution-result .field--name-field-para-limit-three-a .field__items_content>.field__item {
-        flex: 0 0 calc(33.3333% - 4rem);
-        width: calc(33.3333% - 4rem);
-        max-width: calc(33.3333% - 4rem);
+        flex: 0 0 calc(45% - 4rem);
+        width: calc(45% - 4rem);
+        max-width: calc(45% - 4rem);
         margin: 0 2rem 2rem 2rem
     }
 }

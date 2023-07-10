@@ -1,0 +1,39 @@
+.showcase{
+    margin: 6rem 0rem;
+    text-align: center;
+}
+
+.showcase p, .showcase h1{
+    padding: 0px !important;
+    margin: 0% !important;
+}
+
+.showcase p{
+    color: rgb(131, 129, 129);
+}
+
+.showcase-images{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.our-project{
+    width: 30%;
+    max-width: 30%;
+    margin: 20px 0px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, .35);
+    transition: box-shadow .25s;
+}
+
+.services-data{
+    max-width: 1300px !important;
+    margin: 0px auto;
+}
+
+.paragraph-item{
+    margin: 6rem 0rem !important;
+}
