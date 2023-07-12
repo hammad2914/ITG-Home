@@ -1,4 +1,18 @@
+.Jedi-background{
+    
+display: flex;
+align-items: center;
+    background-image: url('../img/svgs/jedi-background.svg') !important;
+    background-repeat: no-repeat;
+    background-size: 2380px auto;
+    background-position-x: calc(50% + 6rem);
+    background-position-y: bottom;
 
+}
+
+/* .section-head-text{
+    background-color: #ddf4ff;
+} */
 
 .Jedi-Overview{
     display: flex;
@@ -116,8 +130,21 @@
     }
 }
 @media(max-width:548px){
+    .advantages-text{
+        text-align: justify;
+        padding: 0% 1rem 0% 0%;
+        margin: 0 auto;
+    }
     .jedi-box{
         width: 100%;
+    }
+    .why-us-title{
+        text-align: justify;
+        padding: 0% 1rem 0% 0%;
+        margin: 0 auto;
+    }
+    .why-jedi{
+        text-align: justify;
     }
 }
 

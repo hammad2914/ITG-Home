@@ -37,3 +37,23 @@
 .paragraph-item{
     margin: 6rem 0rem !important;
 }
+
+@media (max-width:800px){
+    .platforms{
+        display: none !important;
+    }
+}
+
+@media (min-width:450px) and (max-width:800px){
+    .our-project{
+        width: 48%;
+        max-width: 48%;
+        }
+}
+
+@media (max-width:449px){
+    .our-project{
+        width: 100%;
+        max-width: 100%;
+        }
+}
