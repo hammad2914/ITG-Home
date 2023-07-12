@@ -17839,9 +17839,10 @@ dialog+.backdrop {
 
 .two-column-header .title-block,
 .one-column-header .title-block {
+    width: 100%;
     display: flex;
     align-items: center;
-    padding-bottom: 2rem
+    padding:2rem 0rem;
 }
 
 .two-column-header .title-block .title-content h1.title,
@@ -19210,6 +19211,12 @@ dialog+.backdrop {
     display:none;
 }
 
+.title-img{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
 @media screen and (min-width:50em) {
     .section-head-text .title-block .content {
         min-width: 65%;
@@ -19342,7 +19349,7 @@ dialog+.backdrop {
 
 .oval-hero-solid {
     background-image: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 6957 4000'><path d='M6643.2,0.7c-2.8,671.3-777.8,1215-1733.5,1215S3179,672.1,3176.2,0.7H0.7v4568h9818V0.7H6643.2z' fill='%23FFFFFF' /></svg>"), url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4000 800'><rect x='0.5' y='0.5' width='4000' height='800' fill='%23ddf4ff' /></svg>") !important;
-    background-size: 7000px auto,2930px auto;
+    background-size: 7100px auto,2930px auto;
     background-position-x: calc(50% - 1700px), 0;
     background-repeat: repeat-x, repeat-x;
     background-clip: border-box;

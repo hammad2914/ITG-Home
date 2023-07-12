@@ -14,6 +14,13 @@ align-items: center;
     background-color: #ddf4ff;
 } */
 
+.jedi-title{
+    font-size: 1.2rem !important;
+}
+.jedi-title sup{
+    font-size: .6rem !important;
+}
+
 .Jedi-Overview{
     display: flex;
     margin-bottom: 60px;
