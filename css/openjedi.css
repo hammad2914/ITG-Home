@@ -268,8 +268,8 @@
     .problem{
         min-width: 90% !important;
         max-width: 90% !important;
-        min-height: 400px;
-        max-height: 400px;
+        min-height: 300px;
+        max-height: 300px;
     }
 }
 
@@ -295,8 +295,29 @@
 .problem-text p{
     line-height: 130%;
     color: #2a4788;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    margin: 0% !important;
+    padding: .5rem;
+    text-align:start;
 }
+
+
+
+.problem-text p::before{
+    content: "\f10d";
+    font-family: "Font Awesome 5 Free";
+    font-size: 24px;
+    color: #2a4788; 
+    padding-right: 2px;
+}
+
+.problem-text p::after{
+    content: "\f10e";
+    font-family: "Font Awesome 5 Free";
+    font-size: 24px;
+    color: #2a4788; 
+}
+
 
 .bottom-line{
     padding: .5rem 1rem;
@@ -362,3 +383,4 @@
     width: 30% !important;
     margin: 0%  auto !important;
 }
+

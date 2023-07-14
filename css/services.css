@@ -1,3 +1,11 @@
+.hero-service{
+    background-image: url('../img/svgs/services-background.svg');
+    background-repeat: repeat-x;
+    background-size: 1110px auto;
+    background-position-x: calc(50% + 60rem);
+    background-position-y: top;
+}
+
 .showcase{
     margin: 2rem 0rem;
     text-align: center;
@@ -64,4 +72,9 @@
 
 .why-sub-heading{
     color:rgb(54, 54, 54)
+}
+
+.service-image{
+    max-height: 180px !important;
+    overflow: hidden !important;
 }
