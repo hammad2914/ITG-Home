@@ -216,6 +216,9 @@ html {
     border-top: 1px solid rgb(209, 205, 205);
     border-bottom: 1px solid rgb(209, 205, 205);
 }
+.history a:hover{
+    cursor: pointer !important;
+}
 
 .history {
     margin: 0px auto;
@@ -289,7 +292,7 @@ html {
 }
 
 .main-title-desktop {
-height: 600px;
+
 max-width: 1500px;
 margin: 0px auto;
 display: flex;

@@ -1,3 +1,16 @@
+.title-desktop{
+    height: 600px;
+    max-width: 1500px;
+margin: 0px auto;
+display: flex;
+align-items: center;
+    background-image: url('../img/animations/Desktop.svg') !important;
+    background-repeat: no-repeat;
+    background-size: 2380px auto;
+    background-position-x: calc(50% + 6rem);
+    background-position-y: bottom;
+}
+
 .Jedi-background{
     display: flex;
     align-items: flex-start;
@@ -59,6 +72,7 @@
 .Jedi-Text h1{
     font-size: 3rem !important;
     line-height: 120%;
+    position: relative;
 }
 
 .Jedi-Text p{
@@ -187,7 +201,7 @@
 
 .open-Jedi-link{
     display: flex;
-    background: linear-gradient(90deg,#2a4788 62%,#db41df 100%);
+    background: linear-gradient(90deg,rgb(42, 71, 136) 50%,#1ab4ff 102%);
     width: 100%;
     border:transparent;
     border-radius: 20px;
@@ -218,7 +232,7 @@
 
 .jedi-button{
     color: white;
-    background-color: #db41df !important;
+    background-color: #065A9F !important;
     padding: 10px 25px;
     border: transparent;
     border-radius: 20px;
@@ -360,27 +374,33 @@
     padding: 0% !important;
 
 }
-.Jedi-Text h1::after{
+.Jedi-Text h1::before{
     content: "TM";
    font-size: 16px !important;
    position: absolute;
-   top: 23%; 
-  font-size: 0.7em; 
+   left: 186px;
+   bottom: 21px;
 }
 
-.logos{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 2rem 0%;
+@media(min-width:800px) and (max-width:1100px){
+    .Jedi-Text h1::before{
+        left: 174px;
+        bottom: 21px;
+    }
 }
-.company-logo{
-    display: flex;
-    justify-content: center;
+
+@media(min-width:480px) and (max-width:799px){
+    .Jedi-Text h1::before{
+        left: 162px;
+        bottom: 21px;
+    }
 }
-.company-logo img{
-    position: relative;
-    width: 30% !important;
-    margin: 0%  auto !important;
+
+@media (max-width:479px){
+    .Jedi-Text h1::before{
+        left: 148px;
+        bottom: 21px;
+    }
 }
+
 
