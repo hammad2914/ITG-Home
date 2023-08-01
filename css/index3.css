@@ -6,102 +6,7 @@
 
 
 @import"https://p.typekit.net/p.css?s=1&k=awj7kkq&ht=tk&f=2003.2005.2007.2009.2011&a=763487&app=typekit&e=css";
-@font-face {
-    font-family: "roboto";
-    src: url(/themes/coupa_8/css/fonts/Roboto/Roboto-Regular.ttf) format("truetype");
-    font-weight: normal;
-    font-style: normal
-}
 
-@font-face {
-    font-family: "roboto_italic";
-    src: url(/themes/coupa_8/css/fonts/Roboto/Roboto-RegularItalic.ttf) format("truetype");
-    font-weight: normal;
-    font-style: normal
-}
-
-@font-face {
-    font-family: "roboto_bold";
-    src: url(/themes/coupa_8/css/fonts/Roboto/Roboto-Bold.ttf) format("truetype");
-    font-weight: normal;
-    font-style: normal
-}
-
-@font-face {
-    font-family: "roboto_bold_italic";
-    src: url(/themes/coupa_8/css/fonts/Roboto/Roboto-Bolditalic.ttf) format("truetype");
-    font-weight: bold;
-    font-style: italic
-}
-
-@font-face {
-    font-family: "roboto_light";
-    src: url(/themes/coupa_8/css/fonts/Roboto/Roboto-Light.ttf) format("truetype");
-    font-weight: normal;
-    font-style: italic
-}
-
-@font-face {
-    font-family: "roboto_light_italic";
-    src: url(/themes/coupa_8/css/fonts/Roboto/Roboto-LightItalic.ttf) format("truetype");
-    font-weight: 300;
-    font-style: italic
-}
-/* 
-@font-face {
-    font-family: "ITG Font";
-    src: url("https://use.typekit.net/af/635674/00000000000000000000e800/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("woff2"), url("https://use.typekit.net/af/635674/00000000000000000000e800/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("woff"), url("https://use.typekit.net/af/635674/00000000000000000000e800/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("opentype");
-    font-display: auto;
-    font-style: normal;
-    font-weight: 100;
-    font-stretch: normal
-}
-
-@font-face {
-    font-family: "ITG Font";
-    src: url("https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"), url("https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"), url("https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
-    font-display: auto;
-    font-style: normal;
-    font-weight: 300;
-    font-stretch: normal
-}
-
-@font-face {
-    font-family: "ITG Font";
-    src: url("https://use.typekit.net/af/a28b50/00000000000000000000e803/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"), url("https://use.typekit.net/af/a28b50/00000000000000000000e803/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"), url("https://use.typekit.net/af/a28b50/00000000000000000000e803/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
-    font-display: auto;
-    font-style: normal;
-    font-weight: 500;
-    font-stretch: normal
-}
-
-@font-face {
-    font-family: "ITG Font";
-    src: url("https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
-    font-display: auto;
-    font-style: normal;
-    font-weight: 700;
-    font-stretch: normal
-}
-
-@font-face {
-    font-family: "ITG Font";
-    src: url("https://use.typekit.net/af/9cf49e/00000000000000000000e807/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff2"), url("https://use.typekit.net/af/9cf49e/00000000000000000000e807/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff"), url("https://use.typekit.net/af/9cf49e/00000000000000000000e807/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("opentype");
-    font-display: auto;
-    font-style: normal;
-    font-weight: 900;
-    font-stretch: normal
-}
-
-
-
-@font-face {
-    font-family: "coupa-theme-icons";
-    src: url(/themes/coupa_8/css/fonts/coupa-theme-icons.ttf?otu9e9=) format("truetype"), url(/themes/coupa_8/css/fonts/coupa-theme-icons.woff?otu9e9=) format("woff"), url(/themes/coupa_8/css/fonts/coupa-theme-icons.svg?otu9e9=#coupa-theme-icons) format("svg");
-    font-weight: normal;
-    font-style: normal;
-    font-display: block
-} */
 
 .tk-ITG Font {
     font-family: "ITG Font", sans-serif
@@ -1918,17 +1823,12 @@ div.icon-text {
     padding-top: 50%
 }
 
-.image.is-3by1 {
-    padding-top:icon-StoreFront%
-}
+
 
 .image.is-4by5 {
     padding-top: 125%
 }
 
-.image.is-3by4 {
-    padding-top: icon-StoreFront%
-}
 
 .image.is-2by3 {
     padding-top: 150%
@@ -33021,7 +32921,8 @@ article.center-article .card-img-column {
 }
 
 .page-node-type-product div.tabs#tabs ul {
-    flex-shrink: 1
+    flex-shrink: 1;
+   
 }
 
 .page-node-type-product div.tabs#tabs ul li {

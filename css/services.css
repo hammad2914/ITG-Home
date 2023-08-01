@@ -99,4 +99,6 @@
     width: 30% !important;
     margin: 0%  auto !important;
 }
-
+.our-project img{
+    height: 100%;
+}
