@@ -248,81 +248,14 @@ td {
     vertical-align: middle
 }
 
-@font-face {
-    font-family: "museo-sans";
-    src: url("https://use.typekit.net/af/635674/00000000000000000000e800/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("woff2"), url("https://use.typekit.net/af/635674/00000000000000000000e800/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("woff"), url("https://use.typekit.net/af/635674/00000000000000000000e800/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("opentype");
-    font-display: auto;
-    font-style: normal;
-    font-weight: 100;
-    font-stretch: normal
-}
 
-@font-face {
-    font-family: "museo-sans";
-    src: url("https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"), url("https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"), url("https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
-    font-display: auto;
-    font-style: normal;
-    font-weight: 300;
-    font-stretch: normal
-}
-
-@font-face {
-    font-family: "museo-sans";
-    src: url("https://use.typekit.net/af/a28b50/00000000000000000000e803/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"), url("https://use.typekit.net/af/a28b50/00000000000000000000e803/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"), url("https://use.typekit.net/af/a28b50/00000000000000000000e803/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
-    font-display: auto;
-    font-style: normal;
-    font-weight: 500;
-    font-stretch: normal
-}
-
-@font-face {
-    font-family: "museo-sans";
-    src: url("https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
-    font-display: auto;
-    font-style: normal;
-    font-weight: 700;
-    font-stretch: normal
-}
-
-@font-face {
-    font-family: "museo-sans";
-    src: url("https://use.typekit.net/af/9cf49e/00000000000000000000e807/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff2"), url("https://use.typekit.net/af/9cf49e/00000000000000000000e807/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff"), url("https://use.typekit.net/af/9cf49e/00000000000000000000e807/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("opentype");
-    font-display: auto;
-    font-style: normal;
-    font-weight: 900;
-    font-stretch: normal
-}
-
-body {
-    font-family: museo-sans, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased
-}
 
 a {
     text-decoration: none
 }
 
-@font-face {
-    font-family: "coupa-theme-icons";
-    src: url(/themes/coupa_8/css/fonts/coupa-theme-icons.ttf) format("truetype"), url(/themes/coupa_8/css/fonts/coupa-theme-icons.ttf.woff) format("woff"), url(/themes/coupa_8/css/fonts/coupa-theme-icons.ttf.svg) format("svg");
-    font-weight: normal;
-    font-style: normal;
-    font-display: block
-}
 
-[class^=icon-],
-[class*=" icon-"] {
-    font-family: "coupa-theme-icons" !important;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
-}
+
 
 .icon-mag-glass:before {
     content: "î¦¢"
@@ -7260,7 +7193,7 @@ div#consent_blackbar #truste-consent-track #truste-consent-content #truste-conse
     position: absolute;
     top: -2.25rem;
     left: 425px;
-    width: 12.0625rem;
+    width: 12.5rem;
     padding-bottom: 4.25rem;
     background-image: url("data:image/svg+xml,%3Csvg width='66' height='53' viewBox='0 0 66 53' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M52.9786 1.90885C44.2427 18.2778 29.8343 33.5963 13.014 42.0538' stroke='%23FF6714' stroke-width='3.03442' stroke-linecap='round'/%3E%3Cpath d='M16.0871 30.4844C15.2538 36.8916 12.6561 42.2346 8.63612 44.2559' stroke='%23FF6714' stroke-width='3.03442' stroke-linecap='round'/%3E%3Cpath d='M24.1341 46.4883C18.4942 43.3359 12.6561 42.2346 8.63612 44.2559' stroke='%23FF6714' stroke-width='3.03442' stroke-linecap='round'/%3E%3C/svg%3E%0A");
     background-repeat: no-repeat;

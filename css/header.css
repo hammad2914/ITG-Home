@@ -249,6 +249,10 @@ img {
     min-height:0px;
     height: auto;
   }
+
+  .navbar{
+    flex-direction: row-reverse;
+  }
   
 }
 

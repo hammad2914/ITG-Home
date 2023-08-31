@@ -26,6 +26,20 @@ align-items: center;
 
 }
 
+.services-bg{
+    display: flex;
+    align-items: flex-start;
+    background-color: #FFFFFF !important;
+    background: url('../img/animations/product-bg.png') !important;
+    background-repeat: no-repeat !important;
+    background-attachment: scroll !important;
+    background-position: center center !important;
+    z-index: auto;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    color: #FFFFFF !important;
+}
+
 
 .jedi-title{
     font-size: 1rem !important;
