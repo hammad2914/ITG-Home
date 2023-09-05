@@ -26,7 +26,7 @@ align-items: center;
 
 }
 
-.services-bg{
+.services-bg, .products-bg{
     display: flex;
     align-items: flex-start;
     background-color: #FFFFFF !important;

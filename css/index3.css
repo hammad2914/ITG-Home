@@ -14338,8 +14338,8 @@ dialog+.backdrop {
     background-color: #2a4788;
     background-position: center center;
     background-size: cover;
-    min-height: 220px;
-    max-height: 220px;
+    min-height: 250px;
+    max-height: 250px;
     position: relative;
     overflow: hidden;
 }
@@ -41581,7 +41581,7 @@ menu.main-menu {
     .card-grid-three .field__items_content>.field__item {
         flex: 0 0 calc(33.3333% - 2rem);
         width: calc(33.3333% - 2rem);
-        max-width: calc(30% - 10px);
+        max-width: calc(33.3333% - 10px);
         margin: 1rem;
         
     }
