@@ -133,7 +133,7 @@ img {
 .menu-link {
   font-family: inherit;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.5;
   text-transform: uppercase;
   color: #065A9F;
@@ -162,6 +162,18 @@ img {
   color: #A4A4AD;
 }
 
+.Watch-btn{
+  display: none;
+}
+
+
+
+@media(min-width:768px) and (max-width:900px){
+  .menu-inner {
+    column-gap: 1.50rem !important;
+  }
+}
+
 /* Media Query Breakpoint */
 @media only screen and (min-width: 48rem) {
   .menu {
@@ -173,14 +185,16 @@ img {
     margin-left: auto;
     background: none;
     box-shadow: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
   }
 
   .menu-inner {
     display: flex;
     flex-direction: row;
-    column-gap: 1.75rem;
+    column-gap: 2.75rem;
     margin: 0 auto;
-    margin-right: 5rem;
   }
 
   .menu-link {
@@ -189,6 +203,11 @@ img {
 
   .menu-block {
     margin-left: 2rem;
+  }
+  .Watch-btn{
+    display: flex;
+    align-items: center;
+    margin: 1.25rem;
   }
 }
 
