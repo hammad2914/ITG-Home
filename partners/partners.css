@@ -154,8 +154,8 @@
 }
 
 .new-card{
-    width: 33%;
-    min-width: 33%;
+    width: 33.33%;
+    min-width: 33.33%;
     margin: 0px 0px 30px 0px;
     padding: 1rem;
 }
@@ -166,6 +166,7 @@
     box-shadow: 0px 0px 5px 0px grey;
     border-radius: 10px;
     overflow: hidden;
+    height: 100%;
 }
 
 .head-ribbon{
@@ -206,12 +207,13 @@
     display: flex;
     justify-content: left !important;
     flex-wrap: wrap;
+    align-items: stretch;
 }
 
 @media(max-width:800px){
     .new-card{
-        min-width: 45%;
-        width: 45%;
+        min-width: 50%;
+        width: 50%;
     }
 }
 
@@ -219,6 +221,9 @@
     .new-card{
         min-width: 80%;
         width: 80%;
+    }
+    .new-cards-row{
+        justify-content: center !important;
     }
 }
 
