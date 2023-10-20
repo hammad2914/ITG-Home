@@ -241,6 +241,7 @@
 
 .supplychain-map-container, #world-map-markers, .jvectormap-container{
     height: 400px;
+    position: relative;
 }
 
 @media(max-width:668px){
@@ -251,4 +252,51 @@
 
 .jvectormap-zoomin:hover, .jvectormap-zoomout:hover{
     cursor: pointer;
+}
+
+/* #partners-list{
+    position:absolute;
+    top: 0px;
+    left: 20px;
+}
+#partners-list h3{
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 25px;
+}
+#partners-list ul li{
+    font-size: 12px;
+    line-height: 20px;
+} */
+
+#partners-list{
+    text-align: center;
+    margin-top: 20px;
+}
+#partners-list h3{
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 25px;
+}
+#partners-list ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+#partners-list ul li{
+    font-size: 15px;
+    margin: 0px 20px;
+} 
+
+@media(max-width:768px){
+    #partners-list h3{
+        font-size: 16px;
+    }
+    #partners-list ul li{
+        font-size: 10px;
+        margin: 0px 10px;
+        line-height: 15px;
+    } 
 }
